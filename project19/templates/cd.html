@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .row-cols-4 > * {
+            -ms-flex:0 0 25%;
+            flex: 0 0 25%;
+            max-width:25%;
+
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'css/bootsrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="btn btn-primary"> hello world</h2>
+    <script src="{% static 'js/bootsrap.js'%}"></script>
+    <script src="{% static 'js/jquery.bundle.js'%}"></script>
+    <script src="{% static 'js/mdb.js'%}"></script>
+    <script src="{% static 'js/popper.js'%}"></script>
+    
+</body>
+</html>

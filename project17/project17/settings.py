@@ -20,7 +20,7 @@ STATIC_DIR_PROJECT17=os.path.join(os.path.join(BASE_DIR,'PROJECT17'),'static')
 STATIC_DIR_APP=os.path.join(os.path.join(BASE_DIR,'app'),'static')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-xu&llxf39=)^$ax8uw#@*1*sogr3*47v(%@ybvoscaln1!579v'
 

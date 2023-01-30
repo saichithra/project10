@@ -8,15 +8,14 @@
 </head>
 <body>
     <center>
-        <h1>html_form</h1>
+        <h1>insert_topic</h1>
+
+
         <form method="POST">
             {% csrf_token %}
-            <label for="un">username</label>
-            <input type="text" name="usn" id="un"><br>
-            <label for="pw">password</label>
-            <input type="password" name="psw" id="pw"><br>
+            <label for="topic">topic_name</label>
+            <input type="text" name="topic" id="topic"><br>
             
-
             <input type="submit" value="Submit">
         </form>
     </center>

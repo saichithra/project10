@@ -7,5 +7,5 @@ def html_form(request):
         pw=request.POST['psw']
         print(un)
         print(pw)
-        return HttpResponse(' date is submited')
+        return HttpResponse(' data is submited')
     return render(request,'html_form.html')
